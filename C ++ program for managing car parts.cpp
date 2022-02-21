@@ -1,7 +1,5 @@
 /*
-   1. Proiect privind gestionarea pieselor unei - masini -
-
-   2. Am ales aceasta tema deoarece recent am achizitionat o masina si mi s-a parut util sa pot stoca date despre componentele acesteia.
+    Proiect privind gestionarea pieselor unei - masini -
 
 */
 
