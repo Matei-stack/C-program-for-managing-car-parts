@@ -8,34 +8,35 @@ A project from the faculty in the 1st semester of the 2nd year at the course nam
 1. Defining at least 5 classes related to the project requirement
 2. Each class must contain at least one dynamically defined field managed by a pointer; both strings (char *) and numeric value vectors must be addressed
 3. In the solution there must be at least one class that defines a static field and at least one class that defines a constant field
-4. Toate atributele se definesc pe zona privata a clasei
-5. Pentru fiecare atribut se defineste o interfata publica (functii accesor); functiile de modificare trebuie sa contina minim o regula de validare a valorii primite
-6. Fiecare clasa contine minim 2 metode generice de prelucrare/afisare a atributelor
-7. Fiecare clasa contine minim 2 constructori cu parametri, constructor de copiere, destructor si forma supraincarcata a operatorului =
-8. Pentru fiecare clasa se supraincarca obligatoriu >> si <<
-9. Pentru fiecare clasa se supraincarca obligatoriu
-   - operatorul pentru indexare []
-   - minim un operator matematic (+,-,* sau /)
-   - ++ sau -- (cu cele 2 forme)
-   - operatorul cast (catre orice tip) explicit sau implicit
-   - operatorul pentru negatie !
-   - un operator conditional (<.>,=<,>=)
-   - operatorul pentru testarea egalitatii dintre 2 obiecte ==
+4. All attributes are defined on the private area of the class
+5. A public interface is defined for each attribute (accessory functions); the modification functions must contain at least one rule for validating the received value
+6. Each class contains at least 2 generic attributes processing / display methods
+7. Each class contains at least 2 constructors with parameters, copy constructor, destructor and overloaded operator form =
+8. For each class it is mandatory to overload >> and <<
+9. For each class it is mandatory to overload:
+   - indexing operator []
+   - at least one mathematical operator (+, -, * or /)
+   - ++ or -- (with 2 forms)
+   - the cast operator (to any type) explicitly or implicitly
+   - the operator for negation!
+   - a conditional operator (<.>, = <,> =)
+   - the operator for testing the equality between 2 objects ==
 
-10. Toate clasele sunt definite intr-un singur fisier sursa
-11. Testarea claselor (metoda main) se gaseste la finalul acestui fisier sursa
-12. Se implementeaza un modul prin care utilizatorul poate salva datele aplicatiei in fisiere binare si in fisiere text
-13. Se implementeaza modulul prin care utilizatorul are posibilitatea sa genereze diferite rapoarte pentru datele din cadrul aplicatiei
-14. Se implementeaza un modul care sa gestioneze o forma simpla de meniu prin care utilizatorul are posibilitatea sa navigheze prin functiile aplicatiei (dupa ce porneste aplicatia, utilizatorul are posibilitatea de a folosi taste numerice sau de a introduce text prin care sa decida ce functii sa activeze)
-15. Implementarea unei clase care sa exemplifice conceptul compunerii claselor
-16. Extinderea claselor definite deja prin adaugarea de atribute noi si noi functionalitati
-17. Se implementeaza minim o clasa abstracta (cu sau fara atribute) ce trebuie sa continta minim 2 metode virtuale pure
-18. Se implementeaza minim 2 metode virtuale (altele decat cele virtuale pure)
-19. Prin intermediul clasei abstracte sau a unei clase de baza (nou definita sau existenta) se defineste minim o ierarhie care sa descrie o familie de clase;
-20. Se implementeaza minim un vector de pointeri la clasa de baza (a ierarhiei) prin care se gestioneaza elemente concrete dintr-o familie de clase (o familie de clase este data de un set de clase aflate in relatii de derivare/mostenire ce au la baza un parinte comun
-21. Sa se implementeze din libraria STL cel putin un vector, un set, o lista si un map pentru a gestiona datele aplicatiei
+10. All classes are defined in a single source file
+11. Class testing (main method) can be found at the end of this source file
+12. A module is implemented through which the user can save the application data in binary files and in text files
+13. The module is implemented through which the user has the possibility to generate different reports for the data within the application
+14. A module is implemented to manage a simple form of menu through which the user has the possibility to navigate through the functions of the application (after starting the application, the user has the possibility to use numeric keys or to enter text to decide which functions to activate)
+15. Implementing a class that exemplifies the concept of class composition
+16. Extending already defined classes by adding new attributes and new functionalities
+17. At least one abstract class is implemented (with or without attributes) that must contain at least 2 pure virtual methods
+18. At least 2 virtual methods are implemented (other than pure virtual ones)
+19. By means of the abstract class or a basic class (newly defined or existing) is defined at least a hierarchy that describes a family of classes;
+20. 
+At least one vector of pointers is implemented at the base class (of the hierarchy) through which concrete elements from a class family are managed (a class family is given by a set of classes based on derivation / inheritance relationships based on a common parent
+21. Implement at least one vector, set, list, and map from the STL library to manage application data
 
 
-## Diagrama 
+## Diagram
 
 ![Untitled](https://user-images.githubusercontent.com/69009910/155015696-d3f48250-64bd-44bc-89d1-7d541eb875ec.png)
